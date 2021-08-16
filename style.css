@@ -1,0 +1,441 @@
+body {
+    margin: 0px atuo;
+    height:100vh;
+    background: linear-gradient(270deg, #15FF00 0%, #5CBBE7 4.69%, #16FF02 9.38%, #5CBAE6 15.29%, #09FF00 21.93%, #5CBAE6 59.38%, #5CBAE6 83.85%, #0EFF00 91.73%, #5CBAE6 100%, #5CBAE6 100%);
+    background-attachment: fixed;
+  }
+
+.mockup_front{
+    position: absolute;
+    width: 514px;
+    height: 549px;
+    left: 50%;
+    top: 96px;
+    background: url(eclg_mockup_fornt_1.png);
+    background-repeat:no-repeat;
+    background-size:cover;  
+    transform: translate(-50%,0%);
+}
+
+.mockup_front:hover{
+    position: absolute;
+    width: 514px;
+    height: 549px;
+    left: 50%;
+    top: 96px;
+    background: url(eclg_mockup_back_1.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    transform: translate(-50%,0%);   
+    
+}
+
+.부제{
+    position: absolute;
+    width: 627px;
+    height: 20px;
+    top: 783px;
+    left: 50%;
+    transform: translate(-50%,0%);
+
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.backname{
+    position: fixed;
+    width: 931px;
+    height: 45px;
+    left: 95px;
+    top: 25px;
+
+    font-family: Comic Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 41px;
+
+    color: #FFFFFF;
+}
+
+.arrow{
+    position: fixed;
+    left: 50px;
+    top: 27px;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+.arrow:hover {
+    cursor:pointer;
+}
+
+.text{
+    position: absolute;
+    width: 56%;
+    left : 50%;
+    top: 880px;
+    transform: translate(-50%,0%);
+    top: 980px;
+
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 173%;
+    /* or 24px */
+
+    letter-spacing: -0.03em;
+
+    color: #FFFFFF;
+
+    padding-bottom: 200px;
+    z-index:1;
+}
+
+h {
+    font-family: Comic Neue;
+    font-style: normal; 
+    font-weight: normal;
+  }
+
+.숙제, .세권, .콜로서스, .로고, .와일리, .도널드, .ecology, .e2, .콜2, .신체, .엑스맨, .체르노빌, .찰스, .유전자, .전사, .아마존, .이미지, .그려 {
+    text-decoration: underline; 
+    text-underline-position: under;
+}
+
+.숙제, .세권, .콜로서스, .로고, .와일리, .도널드, .ecology, .e2, .콜2, .신체, .엑스맨, .체르노빌, .찰스, .유전자, .전사, .아마존, .이미지, .그려:hover {
+    cursor:pointer;
+}
+
+.숙제i{
+    position:fixed;
+    width: 1384px;
+    height: 576px;
+    top:100%;
+    left : 50%;
+    max-width:90%;
+    height: auto;
+    transform: translate(-50%,0%);
+    z-index:2;
+    pointer-events: none;
+}
+
+.세권i{
+    position:fixed;
+    width: 543px;
+    height: 233px;
+    top:0px;
+    right :100%;
+    max-width:90%;
+    height: auto;
+    z-index:2;
+    pointer-events: none;
+}
+
+.콜로서스i{
+    position:fixed;
+    width: 1384px;
+    height: 576px;
+    top:100%;
+    left : 50%;
+    max-width:90%;
+    height: auto;
+    transform: translate(-50%,0%);
+    z-index:2;
+    pointer-events: none;
+}
+
+.로고i{
+    position:fixed;
+    width: 391px;
+    height: 76px;
+    top:0px;
+    right :100%;
+    max-width:90%;
+    height: auto;
+    z-index:2;
+    pointer-events: none;
+}
+
+.와일리i{
+    position:fixed;
+    width: 134px;
+    height: 180px;
+    top:100%;
+    left : 50%;
+    max-width:90%;
+    height: auto;
+    transform: translate(-50%,0%);
+    z-index:2;
+    pointer-events: none;
+}
+
+.도널드i{
+    position:fixed;
+    width: 400px;
+    height: 289px;
+    top:100%;
+    left : 50%;
+    max-width:90%;
+    height: auto;
+    transform: translate(-50%,0%);
+    z-index:2;
+    pointer-events: none;
+}
+
+.ecologyi{
+    position:fixed;
+    width: 399px;
+    height: 414px;
+    top:100%;
+    left : 50%;
+    max-width:90%;
+    height: auto;
+    transform: translate(-50%,0%);
+    z-index:2;
+    pointer-events: none;
+}
+
+.e2i{
+    position:fixed;
+    width: 399px;
+    height: 307px;
+    top:100%;
+    left : 50%;
+    max-width:90%;
+    height: auto;
+    transform: translate(-50%,0%);
+    z-index:2;
+    pointer-events: none;
+}
+
+.콜2i{
+    position:fixed;
+    width: 674px;
+    height: 1030px;
+    top:100%;
+    left : 50%;
+    max-width:90%;
+    height: auto;
+    transform: translate(-50%,0%);
+    z-index:2;
+    pointer-events: none;
+}
+
+.신체i{
+    position:fixed;
+    width: 498px;
+    height: 216px;
+    top:100%;
+    left : 50%;
+    max-width:90%;
+    height: auto;
+    transform: translate(-50%,0%);
+    z-index:2;
+    pointer-events: none;
+}
+
+.엑스맨i{
+    position:fixed;
+    width: 600px;
+    height: 375px;
+    top:100%;
+    left : 50%;
+    max-width:90%;
+    height: auto;
+    transform: translate(-50%,0%);
+    z-index:2;
+    pointer-events: none;
+}
+
+.체르노빌i{
+    position:fixed;
+    width: 600px;
+    height: 490px;
+    left : 50%;
+    top:100%;
+    text-align: center;
+    transform: translate(-50%,0%);
+    max-width:140%;
+    height: auto;
+    z-index:2;
+    pointer-events: none; 
+}
+
+.체i{
+    width: 600px;
+    height: 375px;
+    max-width:60%;
+    height: auto;
+}
+
+.설명{
+    position:relative;
+    top:-5px;
+    display: inline-block;
+    width: 600px;
+    height: 110px;
+    background: rgba(0, 0, 0, 0.7);
+    font-family: Apple SD Gothic Neo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 172%;
+    /* or 17px */
+    max-width:60%;
+    height: auto;
+    text-align: center;
+    letter-spacing: -0.03em;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 8px 4px rgba(0, 0, 0, 0.55);
+}
+
+.찰스i{
+    position:fixed;
+    width: 1384px;
+    height: 588px;
+    top:100%;
+    left : 50%;
+    max-width:90%;
+    height: auto;
+    transform: translate(-50%,0%);
+    z-index:2;
+    pointer-events: none;
+}
+
+.유전자i{
+    position:fixed;
+    width: 193px;
+    height: 280px;
+    top:0px;
+    right:100%;
+    max-width:90%;
+    height: auto;
+    z-index:2;
+    pointer-events: none;
+}
+
+.전사i{
+    position:fixed;
+    width: 686px;
+    height: 239px;  
+    top:100%;
+    left : 50%;
+    max-width:90%;
+    height: auto;
+    transform: translate(-50%,0%);
+    z-index:2;
+    pointer-events: none;
+}
+
+.아마존i{
+    position:fixed;
+    width: 257px;
+    height: 321px;
+    bottom:0px;
+    right:100%;
+    max-width:90%;
+    height: auto;
+    z-index:2;
+    pointer-events: none;
+}
+
+.이미지i{
+    position:fixed;
+    width: 221px;
+    height: 321px;
+    bottom:0px;
+    right:100%;
+    max-width:90%;
+    height: auto;
+    z-index:2;
+    pointer-events: none;
+}
+
+.그려i{
+    position:fixed;
+    width: 523px;
+    height: 99px;
+    bottom:-5px;
+    right:100%;
+    max-width:90%;
+    height: auto;
+    z-index:2;
+    pointer-events: none;
+    text-align:center;
+}
+
+.그1 {
+    width: 256px;
+    height: 99px;
+    max-width:60%;
+    height: auto;
+    margin-right:5px;
+}
+
+.그2 {
+    width: 256px;
+    height: 99px;
+    max-width:60%;
+    height: auto;
+}
+
+.캡1, .캡2, .캡3, .캡4, .캡5{
+    position:absolute;
+    font-family: Comic Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 172%;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    opacity:0;
+    z-index:-1;
+}
+
+.캡11:hover .캡1{
+    position:sticky;
+    top:2px;
+    opacity:1;
+    z-index:2;
+}
+
+.캡22:hover .캡2{
+    position:sticky;
+    top:2px;
+    opacity:1;
+    z-index:2;
+}
+
+.캡33:hover .캡3{
+    position:sticky;
+    top:2px;
+    opacity:1;
+    z-index:2;
+}
+
+.캡44:hover .캡4{
+    position:sticky;
+    top:2px;
+    opacity:1;
+    z-index:2;
+}
+
+.캡55:hover .캡5{
+    position:sticky;
+    top:2px;
+    opacity:1;
+    z-index:2;
+}
