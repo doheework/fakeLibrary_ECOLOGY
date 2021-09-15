@@ -5,34 +5,47 @@ body {
     background-attachment: fixed;
   }
 
-.mockup_front{
-    position: absolute;
-    width: 514px;
-    height: 549px;
+.mockup{
+    position: relative;
+    width: 515px;
+    max-width:90%;
+    height:auto;
     left: 50%;
     top: 157px;
-    background: url(eclg_mockup_fornt_1.png);
-    background-repeat:no-repeat;
-    background-size:cover;  
     transform: translate(-50%,0%);
 }
 
-.mockup_front:hover{
+.mockup_front{
     position: absolute;
     width: 514px;
-    height: 549px;
-    left: 50%;
-    top: 157px;
-    background: url(eclg_mockup_back_1.png);
-    background-repeat:no-repeat;
-    background-size:cover;
-    transform: translate(-50%,0%);   
-    
+    max-width:90%;
+    height:auto;
+    text-align:center;
+}
+
+.mockup_inside{
+    position: absolute;
+    width: 514px;
+    max-width:90%;
+    height:auto;
+    text-align:center;
+    opacity:0;
+    z-index:2;
+}
+
+@media screen and (max-width:600px) {
+    .mockup{
+      top:100px;
+    }
+  }
+
+.mockup:hover .mockup_inside{
+    opacity:1;
 }
 
 .부제{
     position: absolute;
-    width: 627px;
+    width: 57%;
     height: 20px;
     top: 783px;
     left: 50%;
@@ -50,12 +63,23 @@ body {
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+@media screen and (max-width:600px) {
+    .부제{
+      top: 460px;
+    }
+  }
+
+@media screen and (min-width: 600px) and (max-width: 1300px){
+    .부제{
+        top:720px;
+    }
+}  
+
 .backname{
     position: fixed;
-    width: 931px;
-    height: 45px;
+    width: 70%;
     left: 95px;
-    top: 25px;
+    top: 27px;
 
     font-family: Comic Neue;
     font-style: normal;
@@ -66,6 +90,14 @@ body {
     color: #FFFFFF;
 }
 
+@media screen and (max-width:600px) {
+    .backname{
+      left:70px;
+      font-size:25px;
+      line-height: 35px;
+    }
+  }
+
 .arrow{
     position: fixed;
     left: 50px;
@@ -73,6 +105,12 @@ body {
     font-size: 36px;
     color: #FFFFFF;
 }
+
+@media screen and (max-width:600px) {
+    .arrow{
+      left:27px;
+    }
+  }
 
 .arrow:hover {
     cursor:pointer;
@@ -84,7 +122,6 @@ body {
     left : 50%;
     top: 880px;
     transform: translate(-50%,0%);
-    top: 980px;
 
     font-family: Apple SD Gothic Neo;
     font-style: normal;
@@ -101,11 +138,20 @@ body {
     z-index:1;
 }
 
-h {
-    font-family: Comic Neue;
-    font-style: normal; 
-    font-weight: normal;
+@media screen and (max-width:600px) {
+    .text{
+      font-size: 15px;
+      width: 75%;
+      top:550px;
+    }
   }
+
+  @media screen and (min-width: 600px) and (max-width: 1300px){
+    .text{
+        top:790px;
+    }
+}  
+
 
 .숙제, .세권, .콜로서스, .로고, .와일리, .도널드, .ecology, .e2, .콜2, .신체, .엑스맨, .체르노빌, .찰스, .유전자, .전사, .아마존, .이미지, .그려 {
     box-shadow: inset 0 -1px 0 white; 
